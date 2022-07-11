@@ -1,0 +1,31 @@
+@media (max-width: 1370px) {
+    .game-casino-frame {
+        grid-auto-rows: 232px;
+    }
+
+    .categories-casino, .categories-sport {
+        margin-bottom: 16px;
+    }
+    .game-casino {
+        width: 138px;
+    }
+    .game-sport-frame__ball_mode {
+        top: 13%;
+        left: 2%;
+    }
+
+    .game-casino-frame__btn-hover {
+        padding: 5px 32px;
+    }
+    .promo-casino-frame {
+        grid-auto-rows: 400px;
+    }
+
+    .main-btn_promo {
+        padding: 6px 23px
+    }
+
+    .main-footer-menu {
+        grid-gap: 6px;
+    }
+}

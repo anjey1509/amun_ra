@@ -1,0 +1,112 @@
+.promo {
+    padding-bottom: 48px;
+}
+.title-category-promo {
+    h2 {
+        font-weight: 800;
+        font-size: 24px;
+        text-transform: inherit;
+        color: #FFFFFF;
+    }
+}
+
+.promo-casino-frame {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 472px;
+    grid-gap: 24px;
+
+    &__item {
+        padding: 28px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        color: $white;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+
+        &:after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            border: 49px solid transparent;
+            border-image: url(../img/promo-img/frame_promo.svg) 49;
+            border-image-width: 49px;
+            box-sizing: border-box;
+        }
+
+        &:nth-child(1) {
+            background: url(../img/promo-img/сollection_bg.jpg) 50% -102px/857px 654px no-repeat;
+        }
+
+        &:nth-child(2) {
+            background: url(../img/promo-img/sport_tournament_bg.jpg) 93% -102px/857px 654px no-repeat;
+        }
+
+        &:nth-child(3) {
+            background: url(../img/promo-img/spin_rally_bg.jpg) 50% -102px/857px 654px no-repeat;
+        }
+
+        &:nth-child(4) {
+            background: url(../img/promo-img/lucky_winner_bg.jpg) 50% -102px/857px 654px no-repeat;
+        }
+
+    }
+
+    &__title {
+        font-size: 28px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-size: 17px;
+        font-weight: 700;
+        margin: 7px 0px;
+
+    }
+    &__bonus {
+        font-weight: 800;
+        font-size: 45px;
+    }
+    &__btn {
+        margin-top: auto;
+    }
+    &__hero {
+        width: 732px;
+        height: 472px;
+        position: absolute;
+        top: 3%;
+        left: 0;
+        z-index: -1;
+        &_spin-first {
+            position: absolute;
+            top: 40%;
+            height: 700px;
+            z-index: 0;
+            transform: rotate(-180deg);
+        }
+        &_spin-second {
+            position: absolute;
+            top: 70%;
+            height: 700px;
+            z-index: 0;
+        }
+        &_spin-mobil {
+            display: none;
+        }
+    }
+    &__hero_gods {
+        top: 28%;
+    }
+
+
+}
+.main-btn_promo {
+    z-index: 3;
+}

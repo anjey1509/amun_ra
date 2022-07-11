@@ -1,0 +1,78 @@
+.game-casino-frame {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: 247px;
+    grid-gap: 8px;
+    z-index: 1;
+        &__item {
+            position: relative;
+            overflow: hidden;
+            z-index: 2;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            max-width: 163px;
+            width: 100%;
+            &:after{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                border: 4px solid transparent;
+                border-image: url(../img/frame-game.png) 7;
+                border-image-width: 4px;
+                box-sizing: border-box;
+            }
+            &:hover {
+                transform: scale(1.1);
+                z-index: 3;
+                transition: transform .5s, -webkit-transform .5s;
+                box-shadow: 0 0 10px 0 #FFD159 inset, 0 0 10px 4px #FF7A00;
+                .header-btn{
+                    opacity: 1;
+                    &::after{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        &__category {
+            background: url(../img/game-category-title.png);
+            position: absolute;
+            left: 0%;
+            top: 78%;
+            width: 100%;
+            max-height: 54px;
+            height: 100%;
+            color: #492801;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 8px;
+            z-index: 1;
+        }
+        &__btn-hover {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 5px 44px;
+            opacity: 0;
+            transition: opacity 0.1s;
+            &:after{
+                opacity: 0;
+                transition: opacity 0.1s;
+                transition-delay: 0.3s;
+
+            }
+        }
+
+}
+
+
+
+

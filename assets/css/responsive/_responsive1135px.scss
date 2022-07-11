@@ -1,0 +1,28 @@
+@media (max-width: 1260px) {
+    .game-casino-frame, .game-sport-frame {
+        grid-auto-rows: 195px;
+    }
+}
+
+@media (max-width: 1135px) {
+
+    .menu__list {
+        display: none;
+    }
+
+    .game-casino__btn-hover {
+        padding: 5px 26px;
+    }
+    
+    .game-sport-ball-modern {
+        top: 18%;
+    }
+    .hockey-ball {
+        top: 21%;
+    }
+
+    .general-menu-footer__title {
+        font-size: 11px;
+    }
+
+}

@@ -1,0 +1,123 @@
+body {
+    font: 600 15px 'Montserrat', sans-serif;
+    padding: 0;
+	margin: 0;
+    color: $textColor;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+a {
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: $colorLink;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+        &:hover {
+            transition: all 0.5s ease;
+        }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+        &:hover {
+            transition: all 0.5s ease;
+        }
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+	margin: 0;
+    font-weight: 800;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+
+p {
+	margin: 0;
+	line-height: 1.25em;
+    color: $textColor;
+}
+
+.container {
+    width: 100%;
+    max-width: calc(1360px + 80px);
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.mt48 {
+    margin-top: 48px;
+}
+
+.categories-casino, .categories-sport {
+    margin-bottom: 35px;
+}
+.title-category {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 11px;
+        h2 {
+            font-weight: 800;
+            font-size: 22px;
+            color: $white;
+            text-transform: inherit;
+            letter-spacing: 0.04em;
+        }
+}
+.btns-play {
+    a {
+        color: $orange;
+        font-weight: 800;
+        text-align: inherit;
+        font-size: inherit;
+        display: inline-grid;
+        grid-auto-flow: column;
+        grid-gap: 8px;
+        align-items: center;
+        cursor: pointer;
+        text-transform: inherit;
+            &:hover {
+                opacity: .6;
+            }
+    }
+}
+
+.btn-next-img {
+    width: 16px;
+    height: 16px;
+}
+
+.content-casino {
+    padding: 15px 0px 24px 0px;
+}

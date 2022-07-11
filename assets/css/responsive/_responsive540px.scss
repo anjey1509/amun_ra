@@ -1,0 +1,82 @@
+@media (max-width: 540px) {
+    .bonus__name {
+        font-size: 18px;
+        width: 157px;
+        margin: 0 auto;
+    }
+    .slider-wrapper {
+        padding-top: 68px;
+    }
+    .bonus__win {
+        font-size: 30px;
+        width: 265px;
+    }
+    .main-slider {
+        height: 329px;
+    }
+    .main-btn-modern {
+        margin-top: 26px;
+        padding: 6px 32px;
+    }
+    .dots-wraper {
+        top: 170%;
+    }
+    .nav-registration__login, .nav-registration__join {
+        padding: 10px 18px;
+        font-size: 11px;
+    }
+
+    .main-btn {
+        font-size: 16px;
+    }
+    .categories-casino {
+        margin-bottom: 26px;
+    }
+    .promo {
+        padding: 11px 0px;
+    }
+    .promo-casino-frame {
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 430px;
+        grid-gap: 16px;
+            &__item {
+                padding: 25px;
+            }
+            &__title {
+                font-size: 32px;
+            }
+            &__text {
+                margin: 5px 0px;
+                font-size: 16px;
+            }
+            &__bonus {
+                font-size: 42px;
+            }
+
+     }
+
+    .accordion {
+        width: 99%;
+        padding: 21px 24px;
+    }
+    .footer-content {
+        padding: 64px 0px 17px;
+    }
+    .main-footer-menu {
+        padding: 0px 19px;
+        margin: 25px 0px;
+    }
+    .general-menu-footer {
+        &__title {
+            padding: 16px 14px;
+            margin-bottom: 0;
+        }
+    }
+    .partners-link {
+        transform: translateY(12px);
+    }
+
+     .payments-system {
+        grid-template-columns: repeat(3, 116px);
+     }
+}

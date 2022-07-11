@@ -1,0 +1,39 @@
+/* ---- Variable ---- */
+@import "./blocks/_variable-specisication.scss";
+/* ---- Specification ---- */
+@import "./blocks/_specification.scss";
+/* ---- Preloader style start code ---- */
+@import "./blocks/_preloader.scss";
+/* ---- Header burger style ---- */
+@import "./blocks/_burger.scss";
+/* ---- Header ---- */
+@import "./blocks/_header.scss";
+/* ---- main slider ---- */
+@import "./blocks/_main-slider.scss";
+/* ---- Game category styles ---- */
+@import "./blocks/_game-catigories-style.scss";
+/*Sport category style */
+@import "./blocks/_sport-catigories-style.scss";
+/*Promotion style */
+@import "./blocks/_promo.scss";
+/*Accordion style */
+@import "./blocks/_accordion.scss";
+/*Footer style */
+@import "./blocks/_footer.scss";
+/*Header for registered user */
+@import "./blocks/_registration-header.scss";
+/*main offer for registered user */
+@import "./blocks/_registered-slider.scss";
+
+/* RESPONSIVE */
+@import "./responsive/_responsive1440px.scss";
+@import "./responsive/_responsive1370px.scss";
+@import "./responsive/_responsive1135px.scss";
+@import "./responsive/_responsive1024px.scss";
+@import "./responsive/_responsive768px.scss";
+@import "./responsive/_responsive540px.scss";
+@import "./responsive/_responsive412px.scss";
+@import "./responsive/_responsive360px.scss";
+
+
+

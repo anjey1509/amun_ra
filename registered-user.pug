@@ -1,0 +1,48 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        <!-- Responsive -->
+        meta(name="viewport", content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0")
+        <!-- Title -->
+        title AmunRa
+        <!-- Keywords -->
+        meta(name="description" content="The best online casino AmunRa")
+        meta(name="keywords" content="online casino, best online casino, slot, online slot, online game slot")
+        <!-- OG Tags -->
+        meta(property="og:title" content="AmunRa / Main Page")
+        meta(property="og:description" content="Online casino AmunRa")
+        meta(property="og:type" content="article")
+        meta(property="og:site_name" content="AmunRa")
+        <!-- Styling -->
+        meta(name="theme-color" content="#2C1901")
+        link(rel="icon" type="image/ico" href="../assets/img/favicon.ico")
+        <!-- CSS and Fonts -->
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet")
+        link(rel="stylesheet", href="../assets/css/normalize.css")
+        link(rel="stylesheet" href="../assets/css/style.css")
+    body
+        .mask   
+            .loader   
+        include modules/registered-user-header
+        .wraper
+            main.main
+                include modules/slider-register
+                .content-casino
+                    include modules/casino-categories
+
+                    include modules/livecasino
+
+                    include modules/sport
+
+                    include modules/promo 
+                    
+                    include modules/accordion
+                
+        include modules/footer-registered
+                    
+script(src='../assets/js/main.js')
+   

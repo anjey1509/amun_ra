@@ -1,0 +1,72 @@
+.nav-user-data {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+        &__coins {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.2);
+            box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.6);
+            border-radius: 16px;
+            font-weight: 600;
+            font-size: 14px;
+            padding: 6px 16px;
+            margin-right: 8px;
+                &::after {
+                    content: "";
+                    background: url(../img/header-registred/header-coin.svg);
+                    width: 14px;
+                    height: 14px;
+                    margin-left: 4px;
+                }
+        }
+        &__money {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.2);
+            box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.6);
+            border-radius: 16px;
+            font-weight: 600;
+            font-size: 14px;
+            padding: 6px 16px;
+            margin-right: 8px;
+        }
+        &__deposit {
+            padding: 5px 19px;
+            background: $colorBtnGreen;
+            margin-right: 8px;
+            &:hover {
+                background: $colorBtnBrow;
+            }
+        }
+        &__accaunt {
+            background: url(../img/header-registred/btn-beackgraund.png);
+            width: 32px;
+            height: 32px;
+            position: relative;
+                &::after {
+                    content: "";
+                    background: url(../img/header-registred/ellipse.svg);
+                    width: 10px;
+                    height: 11px;
+                    position: absolute;
+                    left: 75%;
+                }
+        }
+        &__icon {
+            position: absolute;
+            top: 12%;
+            left: 12%;
+        }
+}
+
+.close-regestered-page {
+    top: 35px;
+}
+.burger-header-main_register {
+    top: 70px;
+}
